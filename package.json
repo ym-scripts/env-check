@@ -1,0 +1,40 @@
+{
+  "name": "env-check",
+  "version": "0.1.0",
+  "description": "Compare .env with .env.example: missing, empty and extra keys, without printing values",
+  "type": "module",
+  "bin": {
+    "env-check": "env-check.mjs"
+  },
+  "files": [
+    "env-check.mjs"
+  ],
+  "scripts": {
+    "test": "node --test test/env-check.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "dotenv",
+    "env",
+    ".env.example",
+    "environment-variables",
+    "ci",
+    "laravel",
+    "nextjs",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ym-scripts/env-check.git"
+  },
+  "homepage": "https://github.com/ym-scripts/env-check#readme",
+  "bugs": "https://github.com/ym-scripts/env-check/issues",
+  "author": {
+    "name": "Aghogho Meyoron",
+    "email": "youngmayor.dev@gmail.com",
+    "url": "https://youngmayor.mlabs.ng"
+  },
+  "license": "MIT"
+}
